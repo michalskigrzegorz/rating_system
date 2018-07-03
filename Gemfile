@@ -28,10 +28,17 @@ gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
 
+# gem 'bcrypt', '~> 3.1.7'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+# Bootstrap 4
+gem 'bootstrap', '~> 4.1', '>= 4.1.1'
+# Sprockets-rails
+gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
+# jQuery
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
