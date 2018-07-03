@@ -222,3 +222,772 @@ Processing by FeedbackController#index as HTML
 Completed 200 OK in 163ms (Views: 154.4ms)
 
 
+Started GET "/" for 89.64.42.226 at 2018-07-01 19:24:51 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (10.3ms)
+Completed 500 Internal Server Error in 1358ms
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_rails_default with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/grzesiek/ror/rating_system/app/views"
+):
+    2: <html>
+    3:   <head>
+    4:     <title>RatingSystem</title>
+    5:     <%= render 'layouts/rails_default' %>
+    6: 	<%= render 'layouts/shim' %>
+    7: 
+    8:     <%= csrf_meta_tags %>
+  
+app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__485523062_16286484'
+Started GET "/" for 89.64.42.226 at 2018-07-01 19:25:29 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (3.8ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 25418ms (Views: 25408.8ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 19:30:55 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_header.html.erb (3.7ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 2899ms (Views: 1893.7ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 19:55:30 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (4.3ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 282ms (Views: 272.3ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 20:08:40 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 2898ms (Views: 1911.1ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 20:20:07 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_header.html.erb (3.8ms)
+  Rendered layouts/_footer.html.erb (9.3ms)
+Completed 200 OK in 25847ms (Views: 24636.8ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 20:23:31 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_header.html.erb (3.8ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 43261ms (Views: 42249.3ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 20:34:19 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (3.3ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 239ms (Views: 230.4ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 20:34:56 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (3.4ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 243ms (Views: 234.5ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 20:35:44 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 9056ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/grzesiek/ror/rating_system/app/assets/config
+  /home/grzesiek/ror/rating_system/app/assets/images
+  /home/grzesiek/ror/rating_system/app/assets/javascripts
+  /home/grzesiek/ror/rating_system/app/assets/stylesheets
+  /home/grzesiek/.rvm/gems/ruby-2.4.1/gems/jquery-rails-4.3.3/vendor/assets/javascripts
+  /home/grzesiek/.rvm/gems/ruby-2.4.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/grzesiek/.rvm/gems/ruby-2.4.1/gems/actioncable-5.1.6/lib/assets/compiled
+  /home/grzesiek/.rvm/gems/ruby-2.4.1/gems/actionview-5.1.6/lib/assets/compiled
+  /home/grzesiek/.rvm/gems/ruby-2.4.1/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /home/grzesiek/ror/rating_system/node_modules
+  /home/grzesiek/.rvm/gems/ruby-2.4.1/gems/popper_js-1.12.9/assets/javascripts
+  /home/grzesiek/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.1.1/assets/stylesheets
+  /home/grzesiek/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.1.1/assets/javascripts
+  /home/grzesiek/.rvm/gems/ruby-2.4.1/gems/bootstrap-4.1.1/assets/stylesheets):
+     5: 
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:20
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__642066016_26716788'
+Started GET "/" for 89.64.42.226 at 2018-07-01 20:39:30 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 9346ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$gray-light".):
+     5: 
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:65
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__297021540_27665904'
+Started GET "/" for 89.64.42.226 at 2018-07-01 20:41:42 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 6614ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$gray".):
+     5: 
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:100
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__297021540_961940964'
+Started GET "/" for 89.64.42.226 at 2018-07-01 20:42:30 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 6723ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$state-danger-text".):
+     5: 
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:196
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__297021540_957942204'
+Started GET "/" for 89.64.42.226 at 2018-07-01 20:43:23 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 6813ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$gray-lighter".):
+     5: 
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:223
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__297021540_971902380'
+Started GET "/" for 89.64.42.226 at 2018-07-01 20:44:12 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 10667ms
+
+
+  
+ActionView::Template::Error (".field_with_errors" failed to @extend ".has-error".
+The selector ".has-error" was not found.
+Use "@extend .has-error !optional" if the extend should be able to fail.
+):
+     5: 
+     6:     <%= csrf_meta_tags %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:196
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__297021540_972409680'
+Started GET "/" for 89.64.42.226 at 2018-07-01 20:56:54 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 29198ms (Views: 29189.2ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 20:58:12 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_header.html.erb (3.6ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 3066ms (Views: 2062.1ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:04:04 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (3.7ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 252ms (Views: 242.6ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:05:06 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 252ms (Views: 242.9ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:05:41 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (3.7ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 255ms (Views: 246.2ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:05:44 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (3.8ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 268ms (Views: 262.0ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:06:09 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (3.7ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 253ms (Views: 244.1ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:09:52 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 245ms (Views: 237.1ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:12:52 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 265ms (Views: 256.1ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:17:00 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (4.7ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 302ms (Views: 293.4ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:17:50 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 283ms (Views: 273.3ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:19:07 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_header.html.erb (3.6ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 344ms (Views: 334.6ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:19:08 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (3.6ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 383ms (Views: 367.4ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:25:18 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (8.7ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 361ms (Views: 352.5ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:26:39 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 241ms (Views: 232.3ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:27:02 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (3.8ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 262ms (Views: 252.1ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:28:24 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (3.7ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 258ms (Views: 249.4ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:29:26 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (3.8ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 303ms (Views: 294.6ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:30:05 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (3.6ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 248ms (Views: 239.5ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:33:05 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 254ms (Views: 245.3ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:34:27 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (3.8ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 256ms (Views: 246.7ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:34:28 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 299ms (Views: 290.5ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:35:06 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 246ms (Views: 237.0ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:35:48 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (3.8ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 246ms (Views: 237.0ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:36:37 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 286ms (Views: 277.1ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:37:07 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (4.2ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 241ms (Views: 232.6ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:37:09 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (3.6ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 247ms (Views: 239.5ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:37:11 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (3.7ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 244ms (Views: 235.6ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:37:38 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (4.4ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 299ms (Views: 290.2ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:37:59 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (4.2ms)
+  Rendered layouts/_footer.html.erb (2.6ms)
+Completed 200 OK in 274ms (Views: 264.5ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:38:40 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (3.6ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 412ms (Views: 402.4ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:38:59 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (3.6ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 364ms (Views: 348.6ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:40:50 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 324ms (Views: 315.7ms)
+
+
+Started GET "/" for 89.64.42.226 at 2018-07-01 21:41:37 +0200
+Cannot render console from 89.64.42.226! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (3.7ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 249ms (Views: 241.2ms)
+
+
+Started GET "/" for 77.111.245.14 at 2018-07-02 07:29:29 +0200
+Cannot render console from 77.111.245.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 2927ms (Views: 1900.4ms)
+
+
+Started GET "/" for 77.111.245.14 at 2018-07-02 11:44:06 +0200
+Cannot render console from 77.111.245.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (10.1ms)
+  Rendered layouts/_header.html.erb (4.2ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 3604ms (Views: 2373.4ms)
+
+
+Started GET "/" for 77.111.245.13 at 2018-07-03 14:08:45 +0200
+Cannot render console from 77.111.245.13! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_header.html.erb (4.2ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 3002ms (Views: 1988.2ms)
+
+
+Started GET "/" for 84.10.95.13 at 2018-07-03 19:28:34 +0200
+Cannot render console from 84.10.95.13! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 3032ms (Views: 2019.2ms)
+
+
+Started GET "/" for 84.10.95.13 at 2018-07-03 19:29:22 +0200
+Cannot render console from 84.10.95.13! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (3.6ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 240ms (Views: 230.9ms)
+
+
+Started GET "/" for 84.10.95.13 at 2018-07-03 19:34:17 +0200
+Cannot render console from 84.10.95.13! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 251ms (Views: 242.4ms)
+
+
+Started GET "/" for 84.10.95.13 at 2018-07-03 19:38:53 +0200
+Cannot render console from 84.10.95.13! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 333ms (Views: 324.0ms)
+
+
+Started GET "/" for 84.10.95.13 at 2018-07-03 19:39:26 +0200
+Cannot render console from 84.10.95.13! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 250ms (Views: 242.0ms)
+
+
+Started GET "/" for 84.10.95.13 at 2018-07-03 19:39:59 +0200
+Cannot render console from 84.10.95.13! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 252ms (Views: 242.7ms)
+
+
+Started GET "/" for 84.10.95.13 at 2018-07-03 19:40:24 +0200
+Cannot render console from 84.10.95.13! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (4.2ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 254ms (Views: 244.6ms)
+
+
+Started GET "/" for 84.10.95.13 at 2018-07-03 19:40:49 +0200
+Cannot render console from 84.10.95.13! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 267ms (Views: 259.1ms)
+
+
+Started GET "/" for 84.10.95.13 at 2018-07-03 19:42:03 +0200
+Cannot render console from 84.10.95.13! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (3.8ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 281ms (Views: 272.2ms)
+
+
+Started GET "/" for 84.10.95.13 at 2018-07-03 19:42:49 +0200
+Cannot render console from 84.10.95.13! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (3.6ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 285ms (Views: 277.0ms)
+
+
+Started GET "/" for 84.10.95.13 at 2018-07-03 19:43:07 +0200
+Cannot render console from 84.10.95.13! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 247ms (Views: 238.2ms)
+
+
+Started GET "/" for 84.10.95.13 at 2018-07-03 19:44:35 +0200
+Cannot render console from 84.10.95.13! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 268ms (Views: 258.1ms)
+
+
+Started GET "/" for 84.10.95.13 at 2018-07-03 20:15:30 +0200
+Cannot render console from 84.10.95.13! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (6.8ms)
+Started GET "/static_pages/home" for 84.10.95.13 at 2018-07-03 20:15:47 +0200
+Cannot render console from 84.10.95.13! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 38153ms (Views: 37134.2ms)
+
+
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_header.html.erb (3.7ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 268ms (Views: 260.7ms)
+
+
+Started GET "/static_pages/help" for 84.10.95.13 at 2018-07-03 20:16:49 +0200
+Cannot render console from 84.10.95.13! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (3.6ms)
+  Rendered layouts/_footer.html.erb (2.6ms)
+Completed 200 OK in 279ms (Views: 269.5ms)
+
+
+Started GET "/" for 84.10.95.13 at 2018-07-03 20:17:09 +0200
+Cannot render console from 84.10.95.13! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FeedbackController#index as HTML
+  Rendering feedback/index.html.erb within layouts/application
+  Rendered feedback/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (3.7ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 273ms (Views: 263.9ms)
+
+
