@@ -9,6 +9,7 @@ class MessagesController < ApplicationController
     @message = Message.new message_params
 
     if @message.valid?
+      MessageMailer.contact_me(@message).deliver_now
       redirect_to new_message_url, notice: "Message received, thanks!"
     else
       render :new
