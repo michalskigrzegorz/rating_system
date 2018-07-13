@@ -42,6 +42,30 @@ Rails.application.configure do
   # number of complex assets.
   config.assets.debug = true
 
+  # ActionMailer Config
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.raise_delivery_errors = true
+
+  # SMTP settings
+  host = 'develop.invert8.pl:30023'
+  config.action_mailer.default_url_options = { host: host, protocol: 'http' }
+
+  ActionMailer::Base.smtp_settings = {
+    address => "mail.invert8.pl",
+    port => 587,
+    domain => "invert8.pl",
+    authentication =>"plain",
+    enable_starttls_auto => true,
+    user_name => 'form.ratsys@invert8.com' 
+    password => 'm7A8S7DET5r5hQ9lLdfr'
+    # user_name: ENV["GMAIL_USERNAME"],
+    # password: ENV["GMAIL_PASSWORD"]
+    :openssl_verify_mode => OpenSSL::SSL::VERIFY_NONE    
+  }
+
+  # Send email in development mode?
+  config.action_mailer.perform_deliveries = true
+
   # Suppress logger output for asset requests.
   config.assets.quiet = true
 
@@ -51,4 +75,5 @@ Rails.application.configure do
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
+
 end

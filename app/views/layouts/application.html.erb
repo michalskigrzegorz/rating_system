@@ -7,17 +7,24 @@
   </head>
   <body>
     <%= render 'layouts/header' %>  
-    <div class="container-fluid">
-      <% flash.each do |message_type, message| %>
-        <%= content_tag(:div, message, class: "alert alert-#{message_type}") %>
-      <% end %>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+
+          <% flash.each do |message_type, message| %>
+            <%= content_tag(:div, message, class: "alert alert-#{message_type}") %>
+          <% end %>
+
+          <h1 class="display-3">Rating System</h1>
       
-      <%= yield %>
+          <%= yield %>
       
-      <%= render 'layouts/footer' %>      
+          <%= render 'layouts/footer' %>      
           
-      <!-- logs window = live -->
-      <%= debug(params) if Rails.env.development? %>
+          <!-- logs window = live -->
+          <%= debug(params) if Rails.env.development? %>
+        </div>
+      </div>
     </div>
   </body>
 </html>
