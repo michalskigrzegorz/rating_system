@@ -2,13 +2,10 @@ Rails.application.routes.draw do
   #root 'feedback#index'
   root 'static_pages#home'
 
-  get 'static_pages/home'
-
-  get 'static_pages/help'
-
-  get 'static_pages/contact'  
-
-  get 'feedback/index'
+  get 'home', to: "static_pages#home"
+  get '/feedback', to: "feedback#index"
+  get 'help', to: 'static_pages#help'
+  get 'contact', to: 'static_pages#contact'  
 
   get 'contact-me', to: 'messages#new', as: 'new_message'
   post 'contact-me', to: 'messages#create', as: 'create_message'

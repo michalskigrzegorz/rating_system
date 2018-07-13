@@ -4,8 +4,27 @@
 	<title><%= yield(:title) %> | Rating System</title>
 </head>
 <body>
-	<h1>Rating System</h1>
-	<p>
-		Contact
-	</p>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	  <h1 class="display-3">Rating System</h1>
+	  <h2 class="display-4">Contact</h2>
+  
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputTextarea1">Text area</label>
+        <input type="textarea" class="form-control" id="exampleInputTextArea1" aria-describedby="textareaHelp" placeholder="Your message">
+	  </div>
+	  <button type="submit" class="btn btn-primary">Submit</button>
+	</form>  
+
+	</div>  
+  </div>
+</div>
+
 </body>

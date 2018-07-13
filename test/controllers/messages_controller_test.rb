@@ -20,7 +20,7 @@ class MessagesControllerTest < ActionDispatch::IntegrationTest
 	  post create_message_url, params: {
 	    message: {
 	      name: 'denisberkamp',
-	      email: 'denisberkamp@holland.com',
+	      email: 'biuro@invert8.pl',
 	      body: 'yo'
 	    }
       }

@@ -33,3 +33,6 @@ sftp-config.json
 # Ignore Spring files.
 /spring/*.pid
 
+# Ignore _materials folder
+/_materials/*
+
