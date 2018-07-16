@@ -28,7 +28,7 @@
 sftp-config.json
 
 # ignore smtp settings - private
-/config/environments/*
+/config/local_env.yml
 
 # Ignore Spring files.
 /spring/*.pid

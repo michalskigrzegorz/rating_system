@@ -51,16 +51,14 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: host, protocol: 'http' }
 
   ActionMailer::Base.smtp_settings = {
-    address => "mail.invert8.pl",
-    port => 587,
-    domain => "invert8.pl",
-    authentication =>"plain",
-    enable_starttls_auto => true,
-    user_name => 'form.ratsys@invert8.com' 
-    password => 'm7A8S7DET5r5hQ9lLdfr'
-    # user_name: ENV["GMAIL_USERNAME"],
-    # password: ENV["GMAIL_PASSWORD"]
-    :openssl_verify_mode => OpenSSL::SSL::VERIFY_NONE    
+    :address => "mail.invert8.pl",
+    :port => 587,
+    :domain => "invert8.pl",
+    :authentication =>"plain",
+    :enable_starttls_auto => true,
+    :user_name => ENV["MAIL_USERNAME"], 
+    :password => ENV["MAIL_PASSWORD"],
+    :openssl_verify_mode => OpenSSL::SSL::VERIFY_NONE
   }
 
   # Send email in development mode?

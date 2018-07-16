@@ -22,7 +22,7 @@ class MessagesControllerTest < ActionDispatch::IntegrationTest
 	      name: 'denisberkamp',
 	      email: 'biuro@invert8.pl',
 	      body: 'yo'
-	    }
+	      }
       }
     end
 
